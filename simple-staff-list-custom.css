@@ -5,14 +5,14 @@
 			/*  div wrapped around each staff member  */
 			div.staff-member {
 				padding-bottom: 2em;
-				border-bottom: thin dotted #aaa;
+				/*border-bottom: thin dotted #aaa;*/
 			}
 			/*  "Even" staff member  */
 			div.staff-member.even {
 			}
 			/*  "Odd" staff member  */
 			div.staff-member.odd {
-				margin-top: 2em;
+				
 			}
 			/*  Last staff member  */
 			div.staff-member.last {

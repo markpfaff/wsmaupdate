@@ -25,7 +25,7 @@
                         
                         <div class="logo-desktop"><!-- logo -->
                             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo-bw.png" alt="logo" id="logo"/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="logo" id="logo"/>
                             </a>
                             <a class="navbar-brand navbar-brand-desktop" href="<?php echo esc_url( home_url() ); ?>">West Side Music Academy</a>
 
@@ -49,7 +49,7 @@
                 <div class="navbar navbar-default navbar-static-top" role="navigation">
                         <div class="logo-mobile">
                             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo-bw.png" alt="logo" id="logo"/>
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="logo" id="logo"/>
                             </a>
                             <a class="navbar-brand navbar-brand-mobile" href="<?php echo esc_url( home_url() ); ?>">West Side Music Academy</a>
 
