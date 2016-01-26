@@ -8,7 +8,7 @@
 //## Gray and brand colors for use across Bootstrap.
 
 @gray-base:              #000;
-@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-darker:            #333333; // #222
 @gray-dark:              lighten(@gray-base, 20%);   // #333
 @gray:                   lighten(@gray-base, 33.5%); // #555
 @gray-light:             lighten(@gray-base, 46.7%); // #777
@@ -20,10 +20,10 @@
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
 @brand-red:             #d34646; //#bd4600;
-@brand-yellow:          #ffe958; //#ffc629;
-@brand-orange:          #f3ae46; //#f38220;
-@brand-bg:              #fed15d;
-@brand-html-bg:         #ffee7f;
+@brand-yellow:          #f3ae46;//lighten(#f3ae46, 25%);//orange #f3ae46; //was yellow#ffe958 //#ffc629;
+@brand-orange:          #f3ae46;//lighten(#f3ae46, 25%);//orange#f3ae46; //#f38220;
+@brand-bg:              #fed15d; 
+@brand-html-bg:         lighten(#f3ae46,20%); //was light yellow #ffee7f
 
 
 //== Scaffolding
